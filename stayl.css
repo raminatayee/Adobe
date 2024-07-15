@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
+header .logo {
+  width: 15%;
+  position: relative;
+}
+header .logo .img0 {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 6px;
+  left: 15px;
+}
+header .logo a p {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+header .menu {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+header .menu ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 40px;
+}
+header .menu ul li .r1 {
+  position: absolute;
+  top: 15px;
+  text-decoration: none;
+  left: 5%;
+}
+header .menu ul li .r1:hover {
+  color: hotpink;
+  border-bottom: 2px solid rgb(228, 218, 201);
+}
+header .menu ul li .r2 {
+  position: absolute;
+  top: 15px;
+  text-decoration: none;
+  left: 29%;
+}
+header .menu ul li .r2:hover {
+  color: hotpink;
+  border-bottom: 2px solid rgb(228, 218, 201);
+}
+header .menu ul li .r3 {
+  position: absolute;
+  top: 15px;
+  text-decoration: none;
+  left: 54%;
+}
+header .menu ul li .r3:hover {
+  color: hotpink;
+  border-bottom: 2px solid rgb(228, 218, 201);
+}
+header .menu ul li .r4 {
+  position: absolute;
+  top: 15px;
+  text-decoration: none;
+  left: 80%;
+}
+header .menu ul li .r4:hover {
+  color: hotpink;
+  border-bottom: 2px solid rgb(228, 218, 201);
+}
+
+header .icons {
+  width: 20%;
+}
+header .icons {
+  position: relative;
+}
+header .icons .icons1 {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+header .icons .icons1:hover {
+  background-color: #dfd2d2;
+}
+header .icons .icons1 .material-icons a {
+  border-radius: 10px;
+}
+header .icons .icons1 .material-icons {
+  position: absolute;
+  justify-content: center;
+  size: 30px;
+  top: 5px;
+  left: 18%;
+}
+header .button1 {
+  position: absolute;
+  left: 65%;
+  padding: 6px 15px;
+  top: 23%;
+  border-radius: 15px;
+  background-color: #fff;
+}
+header .button1:hover {
+  background-color: #dfd2d2;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+.section1 {
+  height: 880px;
+  width: 100%;
+  background-image: url("../img/backrund.webp");
+  background-repeat: round;
+  position: relative;
+}
+.section1 .p1 {
+  position: absolute;
+  left: 45%;
+  top: 60px;
+  font-weight: bold;
+}
+.section1 .h1 {
+  position: absolute;
+  left: 25%;
+  top: 15vh;
+  font-size: 40px;
+}
+.section1 .p2 {
+  position: absolute;
+  left: 34%;
+  top: 24vh;
+  font-size: 20px;
+}
+.section1 .button1 {
+  position: absolute;
+  top: 33vh;
+  left: 45%;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+}
+.section1 .div1:hover {
+  cursor: pointer;
+}
+.section1 .button1:hover {
+  background-color: rgb(1, 1, 168);
+  cursor: pointer;
+}
+.section1 .a1 {
+  position: absolute;
+  top: 35vh;
+  left: 55%;
+  color: black;
+  font-weight: bold;
+}
+.section1 .div1 {
+  position: absolute;
+  width: 760px;
+  height: 500px;
+  background-color: rgba(245, 137, 227, 0.3);
+  top: 39%;
+  left: 5%;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+.section1 .div1:hover button {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+.section1 .div1 h1 {
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+}
+.section1 .div1 p {
+  position: absolute;
+  top: 11vh;
+  left: 4vh;
+}
+.section1 .div1 button {
+  position: absolute;
+  top: 20vh;
+  left: 4vh;
+  padding: 10px 35px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  border: 2px solid black;
+}
+.section1 .div1 img {
+  height: 450px;
+  width: 590px;
+  position: absolute;
+  top: 6vh;
+  right: 5px;
+}
+.section1 .div2 {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.3);
+  right: 5%;
+  top: 39%;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+.section1 .div2 h1 {
+  position: absolute;
+  top: 3.5vh;
+  left: 3.5vh;
+}
+.section1 .div2 p {
+  position: absolute;
+  top: 15vh;
+  left: 3.5vh;
+}
+.section1 .div2 button {
+  position: absolute;
+  top: 27vh;
+  left: 3.5vh;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
+  font-size: 15px;
+}
+.section1 .div2 :hover {
+  cursor: pointer;
+}
+.section1 .div2:hover button {
+  background-color: black;
+  color: #fff;
+}
+.section1 .div2 img {
+  position: absolute;
+  height: 430px;
+  width: 430px;
+  top: 8vh;
+  left: 1px;
+}
+.section2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.section2 .h1 {
+  position: absolute;
+  display: flex;
+  top: 7vh;
+  left: 5%;
+  font-size: 22px;
+}
+
+.section2 .button .button1 {
+  position: absolute;
+  left: 30%;
+  top: 5vh;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.section2 .button .button1 i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section2 .button .button1:hover {
+  background-color: rgb(0, 255, 0);
+  cursor: pointer;
+  color: black;
+  border: none;
+}
+.section2 .button .button2 {
+  position: absolute;
+  left: 42%;
+  top: 5vh;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.section2 .button .button2 i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section2 .button .button2:hover {
+  background-color: rgb(0, 255, 0);
+  cursor: pointer;
+  color: black;
+  border: none;
+}
+
+.section2 .button .button3 {
+  position: absolute;
+  left: 54%;
+  top: 5vh;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.section2 .button .button3 i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section2 .button .button3:hover {
+  background-color: rgb(0, 255, 0);
+  cursor: pointer;
+  color: black;
+  border: none;
+}
+.section2 .button .button4 {
+  position: absolute;
+  left: 65.5%;
+  top: 5vh;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.section2 .button .button4 i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section2 .button .button4:hover {
+  background-color: rgba(0, 255, 0);
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+.section2 .button .button5 {
+  position: absolute;
+  left: 76.5%;
+  top: 5vh;
+  padding: 5px 16px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.section2 .button .button5 i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section2 .button .button5:hover {
+  background-color: rgba(0, 255, 0);
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+.section2 .box1 {
+  position: relative;
+  width: 380px;
+  height: 500px;
+  top: 19vh;
+  left: 5%;
+  background-color: rgb(255, 155, 4);
+  border-radius: 2% 2% 10px 10px;
+}
+.section2 .box1 h1 {
+  position: absolute;
+  top: 4vh;
+  left: 4%;
+}
+.section2 .box1 p {
+  position: absolute;
+  top: 15vh;
+  left: 4%;
+}
+.section2 .box1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.section2 .box1:hover {
+  cursor: pointer;
+}
+.section2 .box2 {
+  position: absolute;
+  width: 380px;
+  height: 500px;
+  top: 19vh;
+  left: 36%;
+  background-image: url("../img/4.webp");
+  background-repeat: round;
+  border-radius: 2% 2% 10px 10px;
+}
+.section2 .box2 h1 {
+  position: absolute;
+  left: 5%;
+  top: 4vh;
+  color: #fff;
+}
+.section2 .box2 p {
+  position: absolute;
+  left: 5%;
+  top: 10vh;
+  color: #fff;
+}
+.section2 .box2 a {
+  position: absolute;
+  top: 19vh;
+  left: 5%;
+  color: #fff;
+}
+.section2 .box3 {
+  position: absolute;
+  width: 380px;
+  height: 500px;
+  top: 19vh;
+  left: 67%;
+  background-color: rgba(138, 37, 121, 0.3);
+  background-repeat: round;
+  border-radius: 2% 2% 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.section2 .box3 .div1 {
+  position: relative;
+  background-color: darkmagenta;
+  height: 30vh;
+  width: 100%;
+  border-radius: 2% 2% 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.section2 .box3 .div1 .h1 {
+  position: absolute;
+  left: 5%;
+  top: 4vh;
+  color: #fff;
+}
+.section2 .box3 .div1 .a1 {
+  position: absolute;
+  left: 5%;
+  top: 9vh;
+  color: #fff;
+  text-decoration: none;
+}
+.section2 .box3 .div1 .a2 {
+  position: absolute;
+  left: 5%;
+  top: 13.6vh;
+  color: #fff;
+  text-decoration: none;
+}
+.section2 .box3 .div1 .a3 {
+  position: absolute;
+  left: 5%;
+  top: 18.5vh;
+  color: #fff;
+  text-decoration: none;
+}
+.section2 .box3 .h2 {
+  position: absolute;
+  left: 5%;
+  top: 34vh;
+}
+.section2 .box3 .a4 {
+  position: absolute;
+  left: 5%;
+  top: 40vh;
+  color: black;
+  text-decoration: none;
+}
+.section2 .box3 .a5 {
+  position: absolute;
+  left: 5%;
+  top: 45vh;
+  color: black;
+  text-decoration: none;
+}
+.section2 .box3 .h3 {
+  position: absolute;
+  left: 5%;
+  top: 50vh;
+}
+.section2 .box3 .a6 {
+  position: absolute;
+  left: 5%;
+  top: 57vh;
+  color: black;
+  text-decoration: none;
+}
+.section2 .box3 .a7 {
+  position: absolute;
+  left: 5%;
+  top: 62vh;
+  color: black;
+  text-decoration: none;
+}
+
+.section2 .box4 {
+  position: relative;
+  width: 380px;
+  height: 500px;
+  background-color: #dfd2d2;
+  left: 5%;
+  top: 25vh;
+  border-radius: 10px;
+}
+.section2 .box4 h1 {
+  position: absolute;
+  left: 5%;
+  top: 5vh;
+}
+.section2 .box4 p {
+  position: absolute;
+  left: 5%;
+  top: 18vh;
+}
+.section2 .box4 img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 3%;
+  top: 10vh;
+}
+.section2 .box4:hover {
+  cursor: pointer;
+}
